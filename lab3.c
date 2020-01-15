@@ -124,7 +124,7 @@ void Easierway()
 		{
 			reverse_list(n,temp);
 			for(j=0;j<2*n&&temp!=NULL;j++,i++,temp=temp->link);
-		} 
+		}
 	}
 	display();
 }

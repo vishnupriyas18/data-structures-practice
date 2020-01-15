@@ -105,7 +105,7 @@ void postfix()
 			}
 			else
 			{
-				while(priority(x)>priority(exp[i]))
+				while((priority(x)>priority(exp[i]))&&(priority(x)>=0))
 				{
 					p=pop();
 					printf("%c",p);
